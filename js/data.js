@@ -125,7 +125,22 @@ function populatePortfolio() {
     document.querySelectorAll('a[download]').forEach(el => el.href = portfolioData.personal.resume);
 
     const profileImg = document.querySelector('.hero-image img');
-    if (profileImg) profileImg.src = portfolioData.personal.profileImg;
+    const loader = document.querySelector('.image-loader');
+
+    if (profileImg) {
+        profileImg.onload = () => {
+            profileImg.classList.add('loaded');
+            if (loader) loader.style.display = 'none';
+        };
+
+        // Handle cached images
+        if (profileImg.complete && profileImg.naturalHeight !== 0) {
+            profileImg.classList.add('loaded');
+            if (loader) loader.style.display = 'none';
+        }
+
+        profileImg.src = portfolioData.personal.profileImg;
+    }
 
     // Experience
     const expGrid = document.querySelector('.experience-grid');
