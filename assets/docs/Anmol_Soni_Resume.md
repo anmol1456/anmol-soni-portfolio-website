@@ -5,7 +5,7 @@
 📍 Varanasi, Uttar Pradesh, India  
 📧 anmolsoni1456@gmail.com  
 🔗 Link: [LinkedIn](https://www.linkedin.com/in/anmol-soni-29b566265/) | Link: [GitHub](https://github.com/anmol1456)  
-🌐 Portfolio: [github.com/anmol1456](https://github.com/anmol1456)
+🌐 Portfolio: [anmol-soni-portfolio.onrender.com](https://anmol-soni-portfolio.onrender.com)
 
 ## PROFESSIONAL SUMMARY
 
@@ -15,7 +15,7 @@ Cybersecurity professional with experience in penetration testing, malware analy
 
 ### **Penetration Tester Intern**  
 **Deltaware Solutions** | June 2025 – July 2025  
-🔗 Link: [Certificate](https://drive.google.com/file/d/1xU4t9IZTqIDV1UiyON-dpYX9RH7veQHl/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-deltaware.html)
 
 **Key Achievements:**
 - **Conducted network-level vulnerability assessments** using Nessus, identifying critical misconfigurations and unpatched services.
@@ -24,7 +24,7 @@ Cybersecurity professional with experience in penetration testing, malware analy
 
 ### **Security Tester Intern**  
 **Bornsec** | April 2025 – June 2025  
-🔗 Link: [Certificate](https://drive.google.com/file/d/1fdyvNuf8DcZuJhAWbgqxIEX0YjCEgPrv/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-bornsec.html)
 
 **Key Achievements:**
 - **Executed comprehensive penetration tests** on web applications, identifying 12+ critical vulnerabilities including SQLi, XSS, and IDOR.
@@ -33,7 +33,7 @@ Cybersecurity professional with experience in penetration testing, malware analy
 
 ### **Networking & Cybersecurity Intern**  
 **Megamind IT Services** | March 2025 – August 2025  
-🔗 Link: [Certificate](https://drive.google.com/file/d/18u-GgNPxPRRCIULoCsYoiM-rMnneDxm7/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-megamind.html)
 
 **Key Achievements:**
 - **Analyzed network traffic with Wireshark** to detect intrusion attempts and protocol anomalies.
@@ -67,19 +67,19 @@ Real-time DDoS detection system utilizing rate-limiting and behavioral anomaly d
 
 **Cisco Ethical Hacker**  
 September 2024  
-🔗 Link: [Certificate](https://drive.google.com/file/d/12vAqnMmZacMysiY6wrLBgY2HvgiC2A7u/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-cisco.html)
 
 **EC-Council SQL Injection**  
 August 2024  
-🔗 Link: [Certificate](https://drive.google.com/file/d/1H8KbSq7HPdeOlntEYltoT_51QtTw3a8q/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-eccouncil.html)
 
 **Cyber Security Threats**  
 August 2024  
-🔗 Link: [Certificate](https://drive.google.com/file/d/1Ql-bJMrEUD6aJdsyQLg4dIb6svpfZ-3O/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-greatlearning.html)
 
 **Ethical Hacking Bundle**  
 December 2023  
-🔗 Link: [Certificate](https://drive.google.com/file/d/14Rgiv9bgP_ixw4gECbU0AZ-qdTpoUrwV/view?usp=sharing)
+🔗 Link: [Certificate](https://anmol-soni-portfolio.onrender.com/cert-views/cert-techhacker.html)
 
 ## TECHNICAL SKILLS
 
