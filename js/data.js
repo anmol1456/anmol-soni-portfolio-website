@@ -176,7 +176,7 @@ function populatePortfolio() {
                     <div class="tags">
                         ${proj.tags.map(t => `<span class="tag">${t}</span>`).join('')}
                     </div>
-                    <a href="${proj.github}" target="_blank"
+                    <a href="${proj.github}" target="_blank" rel="noopener noreferrer"
                         class="project-link">View Repository <i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
