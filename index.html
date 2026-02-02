@@ -20,7 +20,15 @@
     <nav>
         <div class="container">
             <a href="#" class="logo">ANMOL SONI</a>
-            <ul class="nav-links">
+
+            <!-- Hamburger Menu Button (Mobile Only) -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -28,15 +36,18 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div style="display: flex; align-items: center; gap: 1rem;">
+            <div class="nav-actions">
                 <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-                <a href="assets/docs/Anmol_Soni_Resume.pdf" class="btn btn-primary" download>Resume <i
+                <a href="assets/docs/Anmol_Soni_Resume.pdf" class="btn btn-primary resume-btn" download>Resume <i
                         class="fa-solid fa-download"></i></a>
             </div>
         </div>
     </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menu-overlay"></div>
 
     <!-- Hero Section -->
     <header class="hero" id="about">
