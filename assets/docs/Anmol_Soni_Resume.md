@@ -4,6 +4,7 @@
 
 📍 Varanasi, Uttar Pradesh, India  
 📧 anmolsoni1456@gmail.com  
+📞 +91 7905826699  
 🔗 Link: [LinkedIn](https://www.linkedin.com/in/anmol-soni-29b566265/) | Link: [GitHub](https://github.com/anmol1456)  
 🌐 Portfolio: [anmol-soni-portfolio.onrender.com](https://anmol-soni-portfolio.onrender.com)
 

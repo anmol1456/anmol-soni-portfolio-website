@@ -6,6 +6,7 @@ const portfolioData = {
         "title": "Cybersecurity Professional & VAPT Expert",
         "badge": "Available for Full-Time Roles",
         "email": "anmolsoni1456@gmail.com",
+        "phone": "+91 7905826699",
         "location": "Varanasi, Uttar Pradesh, India",
         "linkedin": "https://linkedin.com/in/anmol-soni-29b566265",
         "github": "https://github.com/anmol1456",
@@ -118,6 +119,7 @@ function populatePortfolio() {
     if (heroP) heroP.innerHTML = portfolioData.personal.summary;
 
     document.querySelectorAll('a[href*="mailto"]').forEach(el => el.href = `mailto:${portfolioData.personal.email}`);
+    document.querySelectorAll('a[href*="tel"]').forEach(el => el.href = `tel:${portfolioData.personal.phone.replace(/\s+/g, '')}`);
     document.querySelectorAll('a[href*="linkedin.com"]').forEach(el => el.href = portfolioData.personal.linkedin);
     document.querySelectorAll('a[href*="github.com"]').forEach(el => el.href = portfolioData.personal.github);
     document.querySelectorAll('a[download]').forEach(el => el.href = portfolioData.personal.resume);
