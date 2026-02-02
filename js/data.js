@@ -120,8 +120,22 @@ function populatePortfolio() {
 
     document.querySelectorAll('a[href*="mailto"]').forEach(el => el.href = `mailto:${portfolioData.personal.email}`);
     document.querySelectorAll('a[href*="tel"]').forEach(el => el.href = `tel:${portfolioData.personal.phone.replace(/\s+/g, '')}`);
-    document.querySelectorAll('a[href*="linkedin.com"]').forEach(el => el.href = portfolioData.personal.linkedin);
-    document.querySelectorAll('a[href*="github.com"]').forEach(el => el.href = portfolioData.personal.github);
+
+    // Update Social Links based on icons
+    const linkedinLinks = document.querySelectorAll('.fa-linkedin');
+    linkedinLinks.forEach(icon => {
+        const link = icon.closest('a');
+        if (link) link.href = portfolioData.personal.linkedin;
+    });
+
+    const githubLinks = document.querySelectorAll('.fa-github');
+    githubLinks.forEach(icon => {
+        const link = icon.closest('a');
+        if (link && !link.classList.contains('project-link')) { // Avoid overwriting project repo links
+            link.href = portfolioData.personal.github;
+        }
+    });
+
     document.querySelectorAll('a[download]').forEach(el => el.href = portfolioData.personal.resume);
 
     const profileImg = document.querySelector('.hero-image img');
@@ -209,4 +223,51 @@ function populatePortfolio() {
     if (footerP) footerP.innerHTML = `&copy; ${new Date().getFullYear()} ${portfolioData.personal.name}. Built for the Cybersecurity community.`;
 }
 
-document.addEventListener('DOMContentLoaded', populatePortfolio);
+document.addEventListener('DOMContentLoaded', () => {
+    populatePortfolio();
+
+    // Theme Toggle Logic
+    const themeBtn = document.getElementById('theme-toggle');
+    const themeIcon = themeBtn.querySelector('i');
+    const body = document.body;
+
+    // Check saved theme
+    const currentTheme = localStorage.getItem('theme');
+    if (currentTheme === 'light') {
+        body.classList.add('light-mode');
+        themeIcon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeBtn.addEventListener('click', () => {
+        body.classList.toggle('light-mode');
+        const isLight = body.classList.contains('light-mode');
+
+        // Update Icon
+        if (isLight) {
+            themeIcon.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'light');
+        } else {
+            themeIcon.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', 'dark');
+        }
+    });
+
+    // Scroll To Top Logic
+    const scrollTopBtn = document.getElementById('scroll-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            scrollTopBtn.classList.add('visible');
+        } else {
+            scrollTopBtn.classList.remove('visible');
+        }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});
+
