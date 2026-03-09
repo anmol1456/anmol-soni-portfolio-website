@@ -81,6 +81,11 @@ const portfolioData = {
     ],
     "certifications": [
         {
+            "title": "TryHackMe Offensive Pentesting",
+            "date": "March 2026",
+            "link": "assets/docs/tryhackme_certi.pdf"
+        },
+        {
             "title": "Cisco Ethical Hacker",
             "date": "September 2024",
             "link": "cert-views/cert-cisco.html"
