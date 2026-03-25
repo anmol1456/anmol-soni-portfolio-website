@@ -3,7 +3,7 @@ const portfolioData = {
         "name": "Anmol Soni",
         "firstName": "Anmol",
         "lastName": "Soni",
-        "title": "Cybersecurity Professional & VAPT Expert",
+        "title": "DevSecOps Engineer | VAPT Specialist | SOC Analyst",
         "badge": "Available for Full-Time Roles",
         "email": "anmolsoni1456@gmail.com",
         "phone": "+91 7905826699",
@@ -12,7 +12,7 @@ const portfolioData = {
         "github": "https://github.com/anmol1456",
         "resume": "assets/docs/Anmol_Soni_Resume.pdf",
         "profileImg": "assets/img/profile.jpeg",
-        "summary": "Result-oriented <strong>Cybersecurity Professional</strong> specializing in Vulnerability Assessment and Penetration Testing (VAPT). Proven track record of identifying critical security flaws across web applications and networks. Hands-on experience with <strong>OWASP Top 10</strong>, industry-standard tools (Burp Suite, Nessus), and custom security automation in Python."
+        "summary": "DevSecOps-oriented <strong>Cybersecurity Professional</strong> with hands-on experience in penetration testing, vulnerability assessment, and security automation. Skilled in integrating security practices into development and operations pipelines. Proven track record with <strong>OWASP Top 10</strong>, industry-standard tools (Burp Suite, Nessus, Wireshark), and custom security tooling in Python."
     },
     "experience": [
         {
@@ -22,7 +22,6 @@ const portfolioData = {
             "date": "March 2025 - August 2025",
             "bullets": [
                 "Analyzed network traffic with <strong>Wireshark</strong> to detect intrusion attempts and protocol anomalies.",
-                "Engineered Python monitoring scripts that improved threat detection efficiency by 40%.",
                 "Designed social engineering simulations that significantly increased employee security awareness and phishing resilience."
             ],
             "certLink": "cert-views/cert-megamind.html"
@@ -33,7 +32,6 @@ const portfolioData = {
             "company": "Bornsec",
             "date": "April 2025 - June 2025",
             "bullets": [
-                "Executed comprehensive penetration tests on web applications, identifying 12+ critical vulnerabilities including <strong>SQLi, XSS, and IDOR</strong>.",
                 "Utilized Burp Suite and Nessus for hybrid manual/automated auditing, ensuring strict compliance with <strong>OWASP Top 10</strong> standards.",
                 "Authored detailed technical reports with remediation strategies, directly improving client security posture."
             ],
@@ -47,8 +45,7 @@ const portfolioData = {
             "date": "June 2025 (1 Month)",
             "bullets": [
                 "Conducted network-level vulnerability assessments using Nessus, identifying critical misconfigurations and unpatched services.",
-                "Developed a multi-threaded <strong>Python-based password cracker</strong> to demonstrate risk exposure in brute-force scenarios.",
-                "Collaborated on security hardening projects, reducing attack surface area for client infrastructure."
+                "Developed a multi-threaded <strong>Python-based password cracker</strong> to demonstrate risk exposure in brute-force scenarios."
             ],
             "certLink": "cert-views/cert-deltaware.html",
             "delay": "0.4s"
@@ -80,6 +77,11 @@ const portfolioData = {
         }
     ],
     "certifications": [
+        {
+            "title": "DevSecOps",
+            "date": "March 2026",
+            "link": "cert-views/cert-dev-sec-ops.html"
+        },
         {
             "title": "TryHackMe Offensive Pentesting",
             "date": "March 2026",
@@ -164,7 +166,7 @@ function populatePortfolio() {
     // Experience
     const expGrid = document.querySelector('.experience-grid');
     if (expGrid && portfolioData.experience) {
-        expGrid.innerHTML = portfolioData.experience.map(exp => `
+        expGrid.innerHTML = portfolioData.exp | SOC Analyst erience.map(exp => `
             <div class="exp-card animate" ${exp.delay ? `style="animation-delay: ${exp.delay};"` : ''}>
                 <div class="exp-info">
                     <h3>${exp.title}</h3>
