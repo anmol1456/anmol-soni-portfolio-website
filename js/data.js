@@ -109,7 +109,7 @@ const portfolioData = {
         }
     ],
     "skills": {
-        "technical": ["Vulnerability Assessment", "Penetration Testing", "Nmap", "Burp Suite", "Nessus", "Wireshark", "Python", "Linux", "SQL Injection", "Social Engineering"],
+        "technical": ["Vulnerability Assessment", "Penetration Testing", "Nmap", "Burp Suite", "Nessus", "Wireshark", "Python", "Linux", "SQL Injection", "Social Engineering", "CI/CD Security", "SAST/DAST", "Docker", "Kubernetes", "Infrastructure as Code"],
         "soft": ["Problem Solving", "Team Player", "Adaptability", "Communication", "Time Management"]
     }
 };
@@ -166,7 +166,7 @@ function populatePortfolio() {
     // Experience
     const expGrid = document.querySelector('.experience-grid');
     if (expGrid && portfolioData.experience) {
-        expGrid.innerHTML = portfolioData.exp | SOC Analyst erience.map(exp => `
+        expGrid.innerHTML = portfolioData.experience.map(exp => `
             <div class="exp-card animate" ${exp.delay ? `style="animation-delay: ${exp.delay};"` : ''}>
                 <div class="exp-info">
                     <h3>${exp.title}</h3>
