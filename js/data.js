@@ -3,7 +3,7 @@ const portfolioData = {
         "name": "Anmol Soni",
         "firstName": "Anmol",
         "lastName": "Soni",
-        "title": "DevSecOps Engineer | VAPT Specialist | SOC Analyst",
+        "title": "DevSecOps Engineer | Jr Penetration Tester",
         "badge": "Available for Full-Time Roles",
         "email": "anmolsoni1456@gmail.com",
         "phone": "+91 7905826699",
@@ -77,6 +77,11 @@ const portfolioData = {
         }
     ],
     "certifications": [
+        {
+            "title": "Jr Penetration Tester",
+            "date": "April 2026",
+            "link": "cert-views/cert_junior_penetration_tester.html"
+        },
         {
             "title": "DevSecOps",
             "date": "March 2026",
