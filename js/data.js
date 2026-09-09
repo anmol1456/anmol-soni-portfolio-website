@@ -16,6 +16,17 @@ const portfolioData = {
     },
     "experience": [
         {
+            "id": "innspark",
+            "title": "SOC Analyst Trainee",
+            "company": "Innspark | Delhi",
+            "date": "June 2026 - Present",
+            "bullets": [
+                "Gained hands-on experience with <strong>BDSAP SIEM</strong> — understanding log generation pipelines, correlation rules, and alert triage workflows.",
+                "Performed <strong>threat hunting</strong> by analyzing security events, identifying IOCs, and investigating suspicious patterns across network and endpoint telemetry.",
+                "Conducted <strong>VAPT (Vulnerability Assessment & Penetration Testing)</strong> exercises, strengthening skills in identifying and exploiting vulnerabilities in controlled environments."
+            ]
+        },
+        {
             "id": "megamind",
             "title": "Networking & Cybersecurity Intern",
             "company": "Megamind IT Services",
@@ -114,7 +125,7 @@ const portfolioData = {
         }
     ],
     "skills": {
-        "technical": ["Vulnerability Assessment", "Penetration Testing", "Nmap", "Burp Suite", "Nessus", "Wireshark", "Python", "Linux", "SQL Injection", "Social Engineering", "CI/CD Security", "SAST/DAST", "Docker", "Kubernetes", "Infrastructure as Code"],
+        "technical": ["Vulnerability Assessment", "Penetration Testing", "Threat Hunting", "SIEM (BDSAP)", "SOC Operations", "Log Analysis", "Nmap", "Burp Suite", "Nessus", "Wireshark", "Python", "Linux", "SQL Injection", "Social Engineering", "CI/CD Security", "SAST/DAST", "Docker", "Kubernetes", "Infrastructure as Code"],
         "soft": ["Problem Solving", "Team Player", "Adaptability", "Communication", "Time Management"]
     }
 };
