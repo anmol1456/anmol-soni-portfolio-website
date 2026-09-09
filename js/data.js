@@ -190,9 +190,9 @@ function populatePortfolio() {
                     <ul>
                         ${exp.bullets.map(b => `<li>${b}</li>`).join('')}
                     </ul>
-                    <a href="${exp.certLink}" class="btn btn-secondary"
+                    ${exp.certLink ? `<a href="${exp.certLink}" class="btn btn-secondary"
                         style="margin-top: 1.5rem; font-size: 0.8rem; padding: 0.6rem 1.2rem;">View Certificate <i
-                            class="fa-solid fa-up-right-from-square"></i></a>
+                            class="fa-solid fa-up-right-from-square"></i></a>` : ''}
                 </div>
                 <div class="exp-date">${exp.date}</div>
             </div>
