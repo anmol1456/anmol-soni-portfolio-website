@@ -3,7 +3,7 @@ const portfolioData = {
         "name": "Anmol Soni",
         "firstName": "Anmol",
         "lastName": "Soni",
-        "title": "DevSecOps Engineer | Jr Penetration Tester",
+        "title": "SOC Analyst | VAPT | Penetration Tester | DevSecOps",
         "badge": "Available for Full-Time Roles",
         "email": "anmolsoni1456@gmail.com",
         "phone": "+91 7905826699",
@@ -12,7 +12,7 @@ const portfolioData = {
         "github": "https://github.com/anmol1456",
         "resume": "assets/docs/Anmol_Soni_Resume.pdf",
         "profileImg": "assets/img/profile.jpeg",
-        "summary": "DevSecOps-oriented <strong>Cybersecurity Professional</strong> with hands-on experience in penetration testing, vulnerability assessment, and security automation. Skilled in integrating security practices into development and operations pipelines. Proven track record with <strong>OWASP Top 10</strong>, industry-standard tools (Burp Suite, Nessus, Wireshark), and custom security tooling in Python."
+        "summary": "Cybersecurity professional currently working as a <strong>SOC Analyst Trainee</strong>, with hands-on experience in SIEM-based alert triage, threat hunting, and <strong>Vulnerability Assessment &amp; Penetration Testing (VAPT)</strong>. Completed four cybersecurity internships covering network vulnerability assessment, web application security testing (<strong>OWASP Top 10</strong>), and network traffic analysis. Built security tools in Python, including a malware analysis sandbox, a web vulnerability scanner for SQLi/XSS, and a DDoS detection system."
     },
     "experience": [
         {
@@ -21,30 +21,30 @@ const portfolioData = {
             "company": "Innspark | Delhi",
             "date": "June 2026 - Present",
             "bullets": [
-                "Gained hands-on experience with <strong>BDSAP SIEM</strong> — understanding log generation pipelines, correlation rules, and alert triage workflows.",
+                "Gained hands-on experience with Innspark's in-house SIEM platform, <strong>BDSAP SIEM</strong>, covering log generation pipelines, correlation rules, and alert triage workflows.",
                 "Performed <strong>threat hunting</strong> by analyzing security events, identifying IOCs, and investigating suspicious patterns across network and endpoint telemetry.",
-                "Conducted <strong>VAPT (Vulnerability Assessment & Penetration Testing)</strong> exercises, strengthening skills in identifying and exploiting vulnerabilities in controlled environments."
+                "Conducted <strong>VAPT (Vulnerability Assessment & Penetration Testing)</strong> exercises, identifying and exploiting vulnerabilities in controlled environments."
             ]
         },
         {
             "id": "megamind",
             "title": "Networking & Cybersecurity Intern",
-            "company": "Megamind IT Services",
+            "company": "Megamind IT Services | Remote",
             "date": "March 2025 - August 2025",
             "bullets": [
                 "Analyzed network traffic with <strong>Wireshark</strong> to detect intrusion attempts and protocol anomalies.",
-                "Designed social engineering simulations that significantly increased employee security awareness and phishing resilience."
+                "Designed social engineering and phishing awareness simulations to improve employee security awareness."
             ],
             "certLink": "cert-views/cert-megamind.html"
         },
         {
             "id": "bornsec",
             "title": "Security Tester Intern",
-            "company": "Bornsec",
+            "company": "Bornsec | Remote",
             "date": "April 2025 - June 2025",
             "bullets": [
-                "Utilized Burp Suite and Nessus for hybrid manual/automated auditing, ensuring strict compliance with <strong>OWASP Top 10</strong> standards.",
-                "Authored detailed technical reports with remediation strategies, directly improving client security posture."
+                "Performed web application security testing with Burp Suite (manual) and Nessus (automated), assessing applications against the <strong>OWASP Top 10</strong>.",
+                "Wrote technical vulnerability reports with risk descriptions and remediation recommendations."
             ],
             "certLink": "cert-views/cert-bornsec.html",
             "delay": "0.2s"
@@ -53,7 +53,7 @@ const portfolioData = {
             "id": "deltaware",
             "title": "Penetration Tester Intern",
             "company": "Deltaware Solutions",
-            "date": "June 2025 (1 Month)",
+            "date": "June 2025 - July 2025",
             "bullets": [
                 "Conducted network-level vulnerability assessments using Nessus, identifying critical misconfigurations and unpatched services.",
                 "Developed a multi-threaded <strong>Python-based password cracker</strong> to demonstrate risk exposure in brute-force scenarios."
@@ -73,15 +73,15 @@ const portfolioData = {
         {
             "title": "Vulnerability Automation Suite",
             "img": "assets/img/web_vulnerability_thumb.png",
-            "description": "High-performance Python scanner specializing in deep-crawl detection for SQLi and XSS, with integrated logic to bypass common WAF filters.",
-            "tags": ["Security Automation", "OWASP 10", "WAF Bypass"],
+            "description": "Python-based web vulnerability scanner using deep-crawl detection for SQLi and XSS, with integrated logic to bypass common WAF filters.",
+            "tags": ["Python", "Security Automation", "OWASP Top 10", "WAF Bypass"],
             "github": "https://github.com/anmol1456/Web-Application-Vulnerability-Scanner",
             "delay": "0.2s"
         },
         {
             "title": "Shield Guardian (IPS/IDS)",
             "img": "assets/img/ddos_protection_thumb.png",
-            "description": "Real-time DDoS detection system utilizing rate-limiting and behavioral anomaly detection to proactively block volumetric attacks at the firewall level.",
+            "description": "Real-time DDoS detection system using rate-limiting and behavioral anomaly detection to block volumetric attacks at the firewall level.",
             "tags": ["IPS/IDS", "Networking", "Firewall Automation"],
             "github": "https://github.com/anmol1456/DDOS-protect-system",
             "delay": "0.4s"
@@ -89,12 +89,12 @@ const portfolioData = {
     ],
     "certifications": [
         {
-            "title": "Jr Penetration Tester",
+            "title": "Jr Penetration Tester Learning Path — TryHackMe",
             "date": "April 2026",
             "link": "cert-views/cert_junior_penetration_tester.html"
         },
         {
-            "title": "DevSecOps",
+            "title": "DevSecOps Learning Path — TryHackMe",
             "date": "March 2026",
             "link": "cert-views/cert-dev-sec-ops.html"
         },
@@ -119,13 +119,13 @@ const portfolioData = {
             "link": "cert-views/cert-greatlearning.html"
         },
         {
-            "title": "Ethical Hacking Bundle",
-            "date": "December 2023",
+            "title": "Ethical Hacking and Cyber Security Complete Bundle — TechHacker",
+            "date": "May 2023",
             "link": "cert-views/cert-techhacker.html"
         }
     ],
     "skills": {
-        "technical": ["Vulnerability Assessment", "Penetration Testing", "Threat Hunting", "SIEM (BDSAP)", "SOC Operations", "Log Analysis", "Nmap", "Burp Suite", "Nessus", "Wireshark", "Python", "Linux", "SQL Injection", "Social Engineering", "CI/CD Security", "SAST/DAST", "Docker", "Kubernetes", "Infrastructure as Code"],
+        "technical": ["SIEM (BDSAP)", "Alert Triage", "Threat Hunting", "Log Analysis", "IOC Analysis", "SOC Operations", "Vulnerability Assessment", "Penetration Testing", "Web Application Security", "OWASP Top 10", "Metasploit", "Nmap", "Burp Suite", "Nessus", "Wireshark", "Python", "Linux", "SQL Injection", "Social Engineering", "CI/CD Security", "SAST/DAST", "Docker", "Kubernetes", "Infrastructure as Code"],
         "soft": ["Problem Solving", "Team Player", "Adaptability", "Communication", "Time Management"]
     }
 };
