@@ -89,6 +89,11 @@ const portfolioData = {
     ],
     "certifications": [
         {
+            "title": "AI Security Learning Path — TryHackMe",
+            "date": "October 2026",
+            "link": "cert-views/cert-ai-security.html"
+        },
+        {
             "title": "Jr Penetration Tester Learning Path — TryHackMe",
             "date": "April 2026",
             "link": "cert-views/cert_junior_penetration_tester.html"
